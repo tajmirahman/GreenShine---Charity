@@ -15,6 +15,18 @@ const routes=createBrowserRouter([
             }
         ]
 
+    },
+    {
+        path:'/about',
+        element:<h2>This is about page</h2>
+    },
+    {
+        path:'/event',
+        element:<h2>This is event page</h2>
+    },
+    {
+        path:'/blog/submenu1',
+        element:<h2>This is about page</h2>
     }
 ]);
 

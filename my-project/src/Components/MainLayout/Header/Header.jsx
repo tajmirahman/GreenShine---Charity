@@ -1,5 +1,6 @@
-import { Link } from 'react-router-dom';
-import charityLogo from '../../../assets/image/charity-logo.png'
+import { Link, NavLink } from 'react-router-dom';
+import charityLogo from '../../../assets/image/charity-logo.png';
+import './Header.css'
 
 const Header = () => {
     return (
@@ -23,27 +24,27 @@ const Header = () => {
                     <ul
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                       <li><a>Home</a></li>
+                        <li><a>Home</a></li>
                         <li><a>About</a></li>
                         <li><a>Events</a></li>
-                    <li>
-                        <details>
-                            <summary>Blog</summary>
-                            <ul className="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>Pages</summary>
-                            <ul className="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </details>
-                    </li>
+                        <li>
+                            <details>
+                                <summary>Blog</summary>
+                                <ul className="p-2">
+                                    <li><a>Submenu 1</a></li>
+                                    <li><a>Submenu 2</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>Pages</summary>
+                                <ul className="p-2">
+                                    <li><a>Submenu 1</a></li>
+                                    <li><a>Submenu 2</a></li>
+                                </ul>
+                            </details>
+                        </li>
                     </ul>
                 </div>
                 <Link to={'/'} className=" text-xl">
@@ -52,28 +53,34 @@ const Header = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><a>Home</a></li>
-                        <li><a>About</a></li>
-                        <li><a>Events</a></li>
-                    <li>
-                        <details>
-                            <summary>Blog</summary>
-                            <ul className="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>Pages</summary>
-                            <ul className="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </details>
-                    </li>
+                    <NavLink to={'/'}><li><a>Home</a></li></NavLink>
+                    <NavLink to={'/about'}><li><a>About</a></li></NavLink>
+                    <NavLink to={'/event'}><li><a>Events</a></li></NavLink>
+              
+                        <li>
+                            <details>
+                                <summary>Blog</summary>
+                                <ul className="p-2">
+                                    <NavLink to={'/blog/submenu1'}><li><a>Submenu 1</a></li></NavLink>
+                                    <NavLink to={'/blog/submenu2'}><li><a>Submenu 1</a></li></NavLink>
+                                   
+                                </ul>
+                            </details>
+                        </li>
+                  
                    
+                        <li>
+                            <details>
+                                <summary>Pages</summary>
+                                <ul className="p-2">
+                                    <NavLink to={'/page/submenu1'}><li><a>Submenu 1</a></li></NavLink>
+                                     <NavLink to={'/page/submenu2'}><li><a>Submenu 2</a></li></NavLink>
+                                    
+                                </ul>
+                            </details>
+                        </li>
+                  
+
                 </ul>
             </div>
             <div className="navbar-end">
