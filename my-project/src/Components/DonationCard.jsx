@@ -3,7 +3,7 @@ import React from 'react';
 const DonationCard = ({ data }) => {
     console.log(data)
     const { title, description, image, raised, goal }=data || {}
-    // const progress = Math.min((raised / goal) * 100, 100).toFixed(1);
+    const progress = Math.min((raised / goal) * 100, 100).toFixed(1);
 
     return (
         <div>
@@ -14,7 +14,9 @@ const DonationCard = ({ data }) => {
                 <div className="card-body bg-gray-200">
                     <h2 className="card-title">{title}</h2>
                     <p className="text-sm text-gray-600 w-11/12">{description}</p>
-                    {/* <progress className="progress progress-primary w-full mt-2" value={progress} max="100"></progress> */}
+
+                    <progress className="progress progress-primary w-full mt-2" value={progress} max="100"></progress>
+                    
                     <div className="flex justify-between items-center mt-3">
                         <button className="btn btn-outline btn-sm">Donate</button>
                         <span className="text-sm font-semibold">
