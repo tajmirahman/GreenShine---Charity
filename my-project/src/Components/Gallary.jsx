@@ -1,5 +1,5 @@
 import React from 'react';
-import { Outlet, useLoaderData } from 'react-router-dom';
+import { Link, Outlet, useLoaderData } from 'react-router-dom';
 
 const Gallary = () => {
 
@@ -22,7 +22,7 @@ const Gallary = () => {
 
             <div className='flex flex-row justify-center items-center gap-3 mt-6'>
                 {
-                    categories.map(category=> <button className='btn bg-[#00A9A5] text-white'>{category.category}</button>)
+                    categories.map(category=> <Link to={`/category/${category.category}`}><button className='btn bg-[#00A9A5] text-white'>{category.category}</button></Link>)
                 }
             </div>
 

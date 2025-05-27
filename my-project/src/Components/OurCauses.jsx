@@ -5,7 +5,7 @@ import DonationCard from "./DonationCard";
 const OurCauses = () => {
 
     const causesData=useLoaderData();
-    console.log(causesData);
+    // console.log(causesData);
 
     return (
         <div className="">

@@ -14,17 +14,22 @@ const routes = createBrowserRouter([
             {
                 path: '/',
                 element: <Home></Home>,
-                loader: ()=>fetch('charity-data.json'),
+                loader: ()=>fetch('../charity-data.json'),
                 children: [
                     {
                         path: '/',
                         element: <Gallary></Gallary>,
-                        loader: () => fetch('galleryCategory.json'),
+                        loader: () => fetch('../galleryCategory.json'),
                         children: [
                             {
                                 path: '/',
                                 element: <GalleryData></GalleryData>,
-                                loader: ()=>fetch('gallery.json')
+                                loader: ()=>fetch('../gallery.json')
+                            },
+                            {
+                                path: '/category/:category',
+                                element: <GalleryData></GalleryData>,
+                                loader: ()=>fetch('../gallery.json')
                             }
                         ]
                     },

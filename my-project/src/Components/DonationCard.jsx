@@ -1,7 +1,7 @@
 import React from 'react';
 
 const DonationCard = ({ data }) => {
-    console.log(data)
+    // console.log(data)
     const { title, description, image, raised, goal }=data || {}
     const progress = Math.min((raised / goal) * 100, 100).toFixed(1);
 

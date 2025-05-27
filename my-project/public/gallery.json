@@ -1,4 +1,5 @@
 [
+
     {
         "id":1,
         "category":"charity",
@@ -6,22 +7,22 @@
     },
     {
         "id":2,
-        "category":"nature",
+        "category":"charity",
         "image":"https://i.ibb.co/jvS6rxBr/gallery-seven.webp"
     },
     {
         "id":3,
-        "category":"wildlife",
+        "category":"charity",
         "image":"https://i.ibb.co/8D9yRyPS/gallery-six.webp"
     },
     {
         "id":4,
-        "category":"vedio",
+        "category":"charity",
         "image":"https://i.ibb.co/k21kpZcc/gallery-five.webp"
     },
     {
         "id":5,
-        "category":"children",
+        "category":"nature",
         "image":"https://i.ibb.co/JwPchfnq/gallery-four.webp"
     },
     {
@@ -31,28 +32,28 @@
     },
     {
         "id":7,
-        "category":"children",
+        "category":"nature",
         "image":"https://i.ibb.co/kgWGhN0m/gallery-two.webp"
     },
     {
         "id":8,
-        "category":"wildlife",
+        "category":"nature",
         "image":"https://i.ibb.co/YBsBMwBy/gallery-one.webp"
     },
     {
         "id":9,
-        "category":"vedio",
-        "image":"https://i.ibb.co/YBsBMwBy/gallery-one.webp"
+        "category":"wildlife",
+        "image":"https://i.ibb.co/JwPchfnq/gallery-four.webp"
     },
     {
         "id":10,
-        "category":"charity",
-        "image":"https://i.ibb.co/YBsBMwBy/gallery-one.webp"
+        "category":"wildlife",
+        "image":"https://i.ibb.co/Qhnt05N/gallery-three.webp"
     },
     {
         "id":11,
-        "category":"nature",
-        "image":"https://i.ibb.co/YBsBMwBy/gallery-one.webp"
+        "category":"wildlife",
+        "image":"https://i.ibb.co/kgWGhN0m/gallery-two.webp"
     },
     {
         "id":12,
@@ -61,23 +62,23 @@
     }
     ,
     {
-        "id":12,
+        "id":13,
+        "category":"vedio",
+        "image":"https://i.ibb.co/Qhnt05N/gallery-three.webp"
+    },
+    {
+        "id":14,
         "category":"vedio",
         "image":"https://i.ibb.co/jkXLjyQm/gallery-eight.webp"
     },
     {
-        "id":12,
-        "category":"wildlife",
-        "image":"https://i.ibb.co/jkXLjyQm/gallery-eight.webp"
-    },
-    {
-        "id":12,
+        "id":15,
         "category":"children",
         "image":"https://i.ibb.co/jkXLjyQm/gallery-eight.webp"
     },
     {
-        "id":12,
+        "id":16,
         "category":"children",
-        "image":"https://i.ibb.co/jkXLjyQm/gallery-eight.webp"
+        "image":"https://i.ibb.co/Qhnt05N/gallery-three.webp"
     }
 ]
