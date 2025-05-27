@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../MainLayout/MainLayout";
 import Error from "../Error";
 import Home from "../Home";
+import Gallary from "../Gallary";
 
 const routes=createBrowserRouter([
     {
@@ -12,7 +13,14 @@ const routes=createBrowserRouter([
             {
                 path:'/',
                 element:<Home></Home>,
-                loader:()=> fetch('charity-data.json')
+                loader:()=> fetch('charity-data.json'),
+                children:[
+                    {
+                        path:'/',
+                        element:<Gallary></Gallary>,
+                        loader:()=>fetch('galleryCategory.json')
+                    }
+                ]
             
             }
         ]

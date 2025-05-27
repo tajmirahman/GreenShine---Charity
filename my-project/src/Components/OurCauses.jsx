@@ -10,7 +10,7 @@ const OurCauses = () => {
     return (
         <div className="">
             <div className="my-8 space-y-3">
-                <h1 className="text-4xl  text-center">OUR <span className="text-[#00A9A5]">CAUSES</span></h1>
+                <h1 className="text-2xl  text-center font-semibold">OUR <span className="text-[#00A9A5]">CAUSES</span></h1>
 
                 <div class="flex items-center justify-center w-1/6 mx-auto">
                     <div class="flex-grow h-px bg-gray-300"></div>

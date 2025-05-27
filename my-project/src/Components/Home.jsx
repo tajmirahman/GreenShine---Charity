@@ -2,6 +2,8 @@ import React from 'react';
 import Navber from './Navber';
 import OurCauses from './OurCauses';
 import HelpUs from './HelpUs';
+import { Outlet } from 'react-router-dom';
+
 
 const Home = () => {
     return (
@@ -11,6 +13,8 @@ const Home = () => {
             <OurCauses></OurCauses>
             {/* help Us */}
             <HelpUs></HelpUs>
+            <Outlet></Outlet>
+            
         </div>
     );
 };

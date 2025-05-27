@@ -1,10 +1,8 @@
-import React, { useState } from 'react';
+
 import { Link, NavLink } from 'react-router-dom';
 
 const HelpUs = () => {
 
-    // const [donate, setDonate] = useState(false);
-    // const [funrising, setFunrising]=useState(false)
 
     const fullTextDonator = `Becoming a donor is one of the most impactful ways to support our mission. Your generous financial contributions directly help us provide essential resources such as food, shelter, education, and medical care to those who need them most. Every donation, big or small, plays a vital role in changing lives and bringing hope to underserved communities. With your support, we can expand our outreach, respond quickly to emergencies, and continue running our programs that aim to break the cycle of poverty and injustice. As a donor, you become part of a compassionate network of individuals committed to making a difference. We ensure full transparency in how funds are used, and we regularly share updates so you can see the real-world impact of your giving. Join us in transforming lives—your donation can be the spark of hope someone has been waiting for.`;
 
