@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { Outlet, useLoaderData } from 'react-router-dom';
 
 const Gallary = () => {
 
@@ -25,6 +25,8 @@ const Gallary = () => {
                     categories.map(category=> <button className='btn bg-[#00A9A5] text-white'>{category.category}</button>)
                 }
             </div>
+
+            <Outlet></Outlet>
 
         </div>
     );
