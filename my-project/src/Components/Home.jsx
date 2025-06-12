@@ -3,6 +3,7 @@ import Navber from './Navber';
 import OurCauses from './OurCauses';
 import HelpUs from './HelpUs';
 import { Outlet } from 'react-router-dom';
+import Volunteers from './Volunteers';
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
             {/* help Us */}
             <HelpUs></HelpUs>
             <Outlet></Outlet>
+            <Volunteers></Volunteers>
             
         </div>
     );

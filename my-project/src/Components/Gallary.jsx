@@ -9,7 +9,7 @@ const Gallary = () => {
     return (
         <div className='my-6'>
             <div className='space-y-2'>
-                <h1 className="text-2xl  text-center font-semibold">OUR <span className="text-[#00A9A5]">Gallery</span></h1>
+                <h1 className="text-2xl  text-center font-semibold">OUR <span className="text-[#00A9A5] uppercase">Gallery</span></h1>
                 <div class="flex items-center justify-center w-1/6 mx-auto">
                     <div class="flex-grow h-px bg-gray-300"></div>
                     <div class="mx-4 border border-gray-300 p-1 rounded-sm">
