@@ -74,18 +74,70 @@ const About = () => {
                                 alt="Donate for Education"
                                 className="w-full h-full object-cover"
                             />
-                            <div className="absolute inset-0 bg-teal-600 bg-opacity-70 flex items-center justify-center m-4">
+                            <div className="absolute inset-0 bg-teal-600 bg-opacity-50 flex items-center justify-center m-4">
                                 <h2 className="text-white font-bold text-lg">DONATE FOR EDUCATION</h2>
                             </div>
                         </div>
 
-                        
+                        <div className='relative w-80 h-60 overflow-hidden shadow-lg'>
 
-                        <img className='w-[250px] h-[250px]' src={weDoOne} alt="" />
-                        <img className='w-[250px] h-[250px]' src={weDoTwo} alt="" />
-                        <img className='w-[250px] h-[250px]' src={weDoThree} alt="" />
+                            <img className='w-full h-full object-cover' src={weDoTwo} alt="" />
+
+                            <div className='absolute inset-0 bg-teal-600 bg-opacity-50  flex items-center justify-center m-4'>
+                                <h2 className="text-white font-bold text-lg">DONATE FOR FOOD</h2>
+                            </div>
+                        </div>
+
+                        <div className='relative w-80 h-60 overflow-hidden shadow-lg'>
+
+                            <img className='w-full h-full object-cover' src={weDoThree} alt="" />
+
+                            <div className='absolute inset-0 bg-teal-600 bg-opacity-50  flex items-center justify-center m-4'>
+                                <h2 className="text-white font-bold text-lg">DONATE FOR WATER</h2>
+                            </div>
+                        </div>
                     </div>
                 </div>
+            </div>
+
+            {/*  */}
+            <div className='flex justify-center items-center gap-6 bg-black text-white h-48'>
+                <div className='flex flex-col justify-center items-center space-y-3'>
+                    <p className='font-bold'>1200</p>
+                    <div class=" w-2/5">
+                        <div class="flex-grow h-2 bg-teal-700"></div>
+
+                    </div>
+                    <span className='font-bold'>Finish Projects</span>
+                </div>
+                <div className='flex flex-col justify-center items-center space-y-3'>
+                    <p className='font-bold'>1400</p>
+                    <div class=" w-2/5">
+                        <div class="flex-grow h-2 bg-teal-700"></div>
+
+                    </div>
+                    <span className='font-bold'>Creative Materials</span>
+                </div>
+                <div className='flex flex-col justify-center items-center space-y-3'>
+                    <p className='font-bold'>1250</p>
+                    <div class=" w-2/5">
+                        <div class="flex-grow h-2 bg-teal-700"></div>
+
+                    </div>
+                    <span className='font-bold'>Experience Materials</span>
+                </div>
+                <div className='flex flex-col justify-center items-center space-y-3'>
+                    <p className='font-bold'>1700</p>
+                    <div class=" w-2/5">
+                        <div class="flex-grow h-2 bg-teal-700"></div>
+
+                    </div>
+                    <span className='font-bold'>Professinal awards</span>
+                </div>
+
+
+
+
             </div>
         </div>
     );
