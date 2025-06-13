@@ -15,7 +15,7 @@ const Volunteers = () => {
                     </div>
                     <div class="flex-grow h-px bg-gray-300"></div>
                 </div>
-                <p className='w-3/6 text-center mx-auto'>
+                <p className='w-3/6 text-center  mx-auto'>
                     We create events aiming to pear to the voice for children and gather for support.
                     Please update with our events and confirm you presence.
                 </p>
