@@ -4,6 +4,7 @@ import Error from "../Error";
 import Home from "../Home";
 import Gallary from "../Gallary";
 import GalleryData from "../GalleryData";
+import About from "../pages/About";
 
 const routes = createBrowserRouter([
     {
@@ -43,7 +44,7 @@ const routes = createBrowserRouter([
     },
     {
         path: '/about',
-        element: <h2>This is about page</h2>
+        element:<About></About>
     },
     {
         path: '/event',
